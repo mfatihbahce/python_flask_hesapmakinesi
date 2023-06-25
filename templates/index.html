@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hesap Makinesi</title>
+</head>
+<body>
+    <h1>Hesap Makinesi</h1>
+    <form method="POST" action="/">
+        <input type="text" name="sayi1" placeholder="Sayı 1" value="{{ sayi1 }}" required>
+        <input type="text" name="sayi2" placeholder="Sayı 2" value="{{ sayi2 }}" required>
+        <select name="islem">
+            <option value="toplama" {% if islem == 'toplama' %}selected{% endif %}>Toplama</option>
+            <option value="cikarma" {% if islem == 'cikarma' %}selected{% endif %}>Çıkarma</option>
+            <option value="carpma" {% if islem == 'carpma' %}selected{% endif %}>Çarpma</option>
+            <!-- İşlem seçeneklerini buraya ekleyebilirsiniz -->
+        </select>
+        <button type="submit">Hesapla</button>
+    </form>
+    {% if sonuc %}
+    <h2>Sonuç: {{ sonuc }}</h2>
+    {% endif %}
+</body>
+</html>
