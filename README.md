@@ -1,6 +1,6 @@
 # Hesap Makinesi
 
-Bu proje, Python ve Flask kullanarak oluşturulmuş basit bir hesap makinesi uygulamasıdır. Bu uygulama, web tabanlı bir hesap makinesi tasarımını HTML ve CSS ile sunar ve arka planda Python ile matematiksel hesaplamaları gerçekleştirir.
+Bu proje, Python ve Flask kullanarak oluşturulmuş basit bir hesap makinesi uygulamasıdır. Bu uygulama, web tabanlı bir hesap makinesi tasarımını HTML ve arka planda Python ile matematiksel hesaplamaları gerçekleştirir.
 
 ## Nasıl Çalıştırılır
 
